@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+
+<AnchorPane fx:controller="PlanszaController"
+            maxHeight="-Infinity"
+            maxWidth="-Infinity"
+            minHeight="-Infinity"
+            minWidth="-Infinity"
+            prefHeight="900.0"
+            prefWidth="1200.0"
+            xmlns="http://javafx.com/javafx/8.0.171"
+            xmlns:fx="http://javafx.com/fxml/1"
+            styleClass="paneGame"
+            stylesheets="@style.css">
+
+   <children>
+
+       <GridPane fx:id="gridPane"
+                 layoutX="300"
+                 layoutY="100">
+       </GridPane>
+
+      <Button fx:id="przyciskStart"
+              layoutX="65.0"
+              layoutY="207.0"
+              mnemonicParsing="false"
+              text="Start"
+              styleClass="przyciskStart"
+              onAction="#start">
+      </Button>
+
+      <Button fx:id="przyciskFinish"
+              layoutX="65.0"
+              layoutY="282.0"
+              mnemonicParsing="false"
+              text="Finish"
+              styleClass="przyciskFinish"
+              onAction="#finish"
+      >
+      </Button>
+
+      <ImageView fitHeight="150.0"
+                 fitWidth="200.0"
+                 layoutX="23.0"
+                 layoutY="17.0"
+                 pickOnBounds="true"
+                 preserveRatio="true">
+         <image>
+            <Image url="@obrazek2.jpg" />
+         </image>
+      </ImageView>
+
+   </children>
+</AnchorPane>
