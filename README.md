@@ -1,2 +1,3 @@
-# GUI
-Graphical User Interface
+# Game_of_Puzzle
+
+JavaFx puzzle game written for university clases purpose
